@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="nav-bar">
+      <a href="/index.html" class="home">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/021/975/110/original/pawn-3d-render-icon-illustration-with-transparent-background-chess-game-png.png"
+          alt="Chess Pawn Icon"
+          class="logo"
+      /></a>
+      <nav>
+        <ul class="players list">
+          <li><a href="/magnus.html">Magnus Carlsen</a></li>
+          <li><a href="/fabi.html">Fabiano Caruana</a></li>
+          <li><a href="/vasia.html">Vasyl Ivanchuck</a></li>
+        </ul>
+      </nav>
+      <div class="x">
+        <p>Some good chess players lol</p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section class="left-side">
+        <div class="menu-contant-container">
+          <aside class="left-sidebar">
+            <div class="side-menu">
+              <h3>Don't play chess. It's:</h3>
+              <ul class="list">
+                <li>kinda boring</li>
+                <li>for nerds</li>
+                <li>hard</li>
+              </ul>
+            </div>
+            <div class="sidebar-widget">
+              <h3>Reasons to play chess</h3>
+              <ol type="A" class="list">
+                <li>memory</li>
+                <li>logic</li>
+                <li>for nerds</li>
+                <li>boring</li>
+              </ol>
+            </div>
+          </aside>
+          <article class="main-content">
+            <p>
+              Explore the chessboard below. Click on different areas to learn
+              more about chess pieces.
+            </p>
+
+            <!-- Add an image with a map -->
+            <img
+              class="chessboard"
+              src="https://thechessworld.com/wp-content/uploads/2021/03/setup-1-9-10-768x771.webp"
+              alt="Chessboard"
+              usemap="#chess-map"
+            />
+
+            <!-- Define the map and areas -->
+            <map name="chess-map">
+              <!-- Define clickable areas using coordinates -->
+              <area
+                shape="rect"
+                coords="0,0,60,60"
+                alt="Rook"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              />
+              <area
+                shape="rect"
+                coords="60,0,110,60"
+                alt="Knight"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              />
+              <area
+                shape="rect"
+                coords="110,0,160,60"
+                alt="Bishop"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              />
+              <area
+                shape="rect"
+                coords="160,0,210,60"
+                alt="Queen"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              />
+              <area
+                shape="rect"
+                coords="210,0,260,60"
+                alt="King"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              />
+              <area
+                shape="rect"
+                coords="0,70,60,110"
+                alt="Pawn"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              />
+            </map>
+
+            <p>
+              Click on different parts of the chessboard image to learn more
+              about each piece.
+            </p>
+          </article>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="y">
+            <p>(except myself)</p>
+          </div>
+          <p class="quote">
+            <q class="words">
+              The ability to play chess is the sign of a gentleman. The ability
+              to play chess well is the sign of a wasted life.
+            </q>
+            <br />
+            - Paul Morphy
+          </p>
+        </footer>
+      </section>
+
+      <!-- Right Sidebar -->
+      <aside class="right-sidebar">
+        <p>
+          CVasyl Ivanchuk is a highly regarded Ukrainian chess grandmaster,
+          known for his creativity and deep understanding of the game. Born on
+          March 18, 1969, in Kopychyntsi, Ukraine, he has been one of the most
+          enigmatic and unpredictable players in the chess world. Ivanchuk
+          earned the grandmaster title in 1988 and quickly rose to prominence by
+          winning several major tournaments. He has defeated numerous world
+          champions, including Garry Kasparov, Viswanathan Anand, and Magnus
+          Carlsen, demonstrating his ability to compete with the best. Despite
+          his talent, Ivanchuk has never won a World Chess Championship,
+          although he came close in the FIDE Knockout World Championship in
+          2001, where he was the runner-up. He is known for his wide opening
+          repertoire and his willingness to play unconventional and experimental
+          lines. Ivanchuk's playing style combines deep positional understanding
+          with tactical brilliance, and he is revered for his ability to find
+          surprising moves in complex positions. Despite his immense skill,
+          Ivanchuk's career has been marked by inconsistency, largely due to his
+          emotional nature. He is known to be deeply passionate about chess, and
+          his mood can greatly affect his play. In one tournament, he may
+          perform like a world champion, while in another, he might falter
+          against lower-rated opponents. Ivanchuk remains an influential figure
+          in the chess world, admired for his deep chess knowledge, imaginative
+          play, and his significant contributions to the game. Even in his later
+          years, he continues to compete at a high level and remains a fan
+          favorite for his unpredictability and unique approach to chess.
+        </p>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
